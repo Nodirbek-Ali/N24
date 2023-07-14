@@ -25,11 +25,13 @@ img {
   height: auto;
 }
 
+
 /* OUTLINE STYLES */
 *:focus {
   outline: 2px dashed #7296ec;
   outline-offset: 3px;
 }
+
 
 /* BUTTON */
 .button {
@@ -55,6 +57,7 @@ img {
   opacity: 0.6;
 }
 
+
 /* CONTAINER */
 .container {
   width: 100%;
@@ -64,7 +67,10 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+
 /* SITE-HEADER */
+
 
 /* SITE-HEADER-TOP */
 .site-header-top {
@@ -76,6 +82,8 @@ img {
   display: flex;
   align-items: center;
 }
+
+
 /* STIE-HEADER-LOGO */
 .site-header-logo {
   display: flex;
@@ -90,6 +98,8 @@ img {
 .site-header-logo:active {
   opacity: 0.6;
 }
+
+
 /* CURRENCY-RATES */
 .currency-rates {
   display: flex;
@@ -108,6 +118,7 @@ img {
   color: #2959ce;
 }
 
+
 /* GLOBAL-SEARCH-FORM */
 .global-search-form {
   margin-right: 25px;
@@ -120,6 +131,7 @@ img {
   font-size: 14px;
   line-height: normal;
 }
+
 
 /* LANG-TOGGLE */
 .lang-toggle {
@@ -145,6 +157,7 @@ img {
   background-color: #fff;
   color: #000;
 }
+
 
 /* SITENAV */
 .sitenav {
@@ -187,7 +200,92 @@ img {
   opacity: 0.6;
 }
 
+
 /* SITE-HEADER-BANNER */
 .site-header-banner-link {
   display: flex;
+}
+
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+  padding-top: 50px;
+}
+
+
+/* NEWS-GRID */
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+.news-grid-iten {
+  width: 393px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.article-card {
+  display: flex;flex-direction: column;
+  padding: 20px 17px 15px 17px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+}
+
+.article-card-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.article-card-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+.article-card-link:hover {
+  color: #7296ec;
+}
+.article-card-link:active {
+  opacity: 0.6;
+}
+
+.article-card-text {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.article-card-img {
+  display: block;
+  width: 360px;
+  height: 165px;
+  margin-top: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.article-card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.article-card-source-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.article-card-source-time {
+  font-size: 12px;
+  line-height: normal;
+  color: #5e5f61;
+}
+
+.article-card-source {
 }
